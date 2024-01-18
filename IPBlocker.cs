@@ -13,7 +13,7 @@ namespace IPBlocker;
 public class IPBlocker : BasePlugin
 {
     public override string ModuleName => "IP Blocker";
-    public override string ModuleAuthor => "Sid"; // I will not give credit to the retard who doesnt know how to use regex
+    public override string ModuleAuthor => "Sid"; // I will not give credit to the guy who doesnt know how to use regex
     public override string ModuleVersion => "1.0.0";
 
     private Config _config;
