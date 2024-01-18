@@ -36,7 +36,7 @@ public class IPBlocker : BasePlugin
         return HookResult.Handled;
     }
 
-    private static void Print(CCSPlayerController player, string message)
+    private static void Print(CCSPlayerController player, string message) // cred Tian
     {
         string text = $"[IPBlocker]:{ChatColors.Red} {message}";
         player.PrintToChat(text);
